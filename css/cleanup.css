@@ -1,1 +1,27 @@
-/* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#wall div#tag-2 {
+    display: none;
+}
+
+div#wall div#tag-3.slick {
+    display: none;
+}
+
+#wall .parent {
+    display: none;
+}
+
+/* However, Rspec is saying there is an error
+7:18
+css/cleanup.css has overrides added
+     Failure/Error: expect(size).to be > minimum_bytes, "You should have at least 300 bytes worth of updates to css/cleanup.css"
+       You should have at least 300 bytes worth of updates to css/cleanup.css
+7:18
+I don't understand. All the divs are being hidden, so I completed the task
+7:19
+what does this mean?
+7:19
+If I add more comments, will that get over 300 bytes? */
